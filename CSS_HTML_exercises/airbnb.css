@@ -1,0 +1,56 @@
+.title {
+    color: #48484c;
+}
+
+.text {
+    color: #48484c;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* background: yellow; */
+    height: 100px;
+    padding: 10px;
+}
+
+.login {
+    color: white;
+    font-size: 12px;
+    height: 36px;
+    width: 70px;
+    background: #008489;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 10px 10px 10px 10px;
+}
+
+.signup {
+    display: inline-block;
+    color: #008489;
+    font-size: 12px;
+    height: 36px;
+    width: 70px;
+    background: white;
+    border: 1px solid #008489;
+    border-radius: 5px;
+    margin: 10px 10px 10px 10px;
+}
+
+.articles {
+    color: #48484c;
+}
+
+.container-two {
+    display: flex;
+    justify-content: space-around;
+}
+
+.started {
+    color: #48484c;
+}
+
+.account {
+    color: #48484c;
+}
