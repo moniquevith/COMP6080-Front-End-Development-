@@ -1,0 +1,50 @@
+.top-section {
+    color: #48484c
+}
+
+.bottom-section {
+    color: #48484c
+}
+
+#login-button {
+    color: white;
+    background-color: #008489;
+    border-style: solid;
+    border-color: #008489;
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#signup-button {
+    color: #008489;
+    background-color: white;
+    border-style: solid;
+    border-color: #008489;
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+hr {
+    border: 0.5px solid rgb(139, 139, 139);
+    margin-top: 50px;
+}
+
+.text {
+    color: rgb(139, 139, 139);
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    padding-inline-start: unset;
+}
+
+li {
+    list-style-type: none;
+    margin: 10px 0;
+}
