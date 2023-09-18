@@ -1,4 +1,5 @@
 .title {
+    font-size: 35px;
     color: #48484c;
 }
 
@@ -40,6 +41,7 @@
 
 .articles {
     color: #48484c;
+    font-size: 25px;
 }
 
 .container-two {
