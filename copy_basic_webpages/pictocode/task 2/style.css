@@ -1,0 +1,20 @@
+body {
+    background-image: url(assets/background.png);
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+/*
+#searchbar {
+    width: 200px; 
+    border: 10px solid white;
+    margin: 0px;
+    background-color: #F4F4F4; 
+    padding: 20px 20px 20psx 40px; 
+    background: url(assets/calendar.png) no-repeat ;   
+    background-position: right;  
+}

@@ -73,8 +73,8 @@ ul {
 li {
     width: 85%;
     list-style: none;
-    background-image: url(arrow.png);
-    background-repeat: no-repeat;
+    background-image: url(arrow.png); /* find arrow photo here */
+    background-repeat: no-repeat; 
     background-position: left;
     background-size: 20px;
     padding: 10px 0px 10px 25px;
