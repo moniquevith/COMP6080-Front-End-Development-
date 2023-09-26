@@ -1,14 +1,19 @@
+* {
+    font-family: Arial;
+}
+
 body {
     background-image: url(assets/background.png);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat;
+    background-size: cover;  */
     margin: 0;
 }
 
-.flex-container {
+/* .flex-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
+} */
 
 .search-bar-section {
     display: flex;
@@ -30,7 +35,7 @@ body {
     /* border: 10px solid black; */
 }
 
-#car-emoji {
+#blue-car-emoji {
     height: 80px;
     width: 100px;
     background-color: #F4F4F4;
@@ -49,6 +54,30 @@ body {
     border-top: 10px solid white;
     border-bottom: 10px solid white;
     border-right: 20px solid white;
-    border-left: none;
+    border-left: none; 
+}
 
+.welcome-header-section {
+    margin-bottom: 10px;
+}
+
+#welcome-header {
+    color: white;
+    font-size: 50px;
+    margin: 40px 40px 40px 40px;
+}
+
+/* #red-car-emoji {
+    display: inline;
+} */
+
+.booking-section {
+    margin: 0 10px 0 10px;
+    height: 500px;
+    width: 766px;
+    background-color: white;
+}
+
+#booking-header {
+    margin-left: 40px;
 }
