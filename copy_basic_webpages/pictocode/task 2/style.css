@@ -6,15 +6,49 @@ body {
 
 .flex-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
-/*
+
+.search-bar-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 #searchbar {
-    width: 200px; 
-    border: 10px solid white;
-    margin: 0px;
-    background-color: #F4F4F4; 
-    padding: 20px 20px 20psx 40px; 
-    background: url(assets/calendar.png) no-repeat ;   
-    background-position: right;  
+    height: 80px;
+    width: 586px;
+    font-size: 20px;
+    background-color:#F4F4F4;
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
+    border-left: none;
+    border-right: none;
+    margin: none;
+    padding: 0;
+    /* border: 10px solid black; */
+}
+
+#car-emoji {
+    height: 80px;
+    width: 100px;
+    background-color: #F4F4F4;
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
+    border-left: 20px solid white;
+    border-right: none;
+    color: white;
+    margin: none;
+}
+
+#search-button {
+    height: 100px;
+    width: 100px;
+    background-color: #F4F4F4;
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
+    border-right: 20px solid white;
+    border-left: none;
+
 }
