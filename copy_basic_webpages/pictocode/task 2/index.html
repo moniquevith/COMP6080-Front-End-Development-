@@ -1,3 +1,4 @@
+<!-- copied page.PNG -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,40 +8,43 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- section 1: flex container
-            1. search bar
-            2. Welcome header 
-            3. booking section 
-            4. advertising section
-    -->
     <section class="flex-container">
-        <!-- TODO: search bar section-->
+        <!-- search bar section-->
         <section class="search-bar-section">
-            <span id="blue-car-emoji">car</span>
+            <div id = "emoji-container">
+                <div id="car-emoji">&#x1F697</div>
+            </div>
             <input type="text" placeholder="Find my car" id="searchbar">
-            <button id="search-button">search</button>
+            <button id="search-button">
+                <img src="assets/purple-magnifying-glass.png" id="magnifying-glass">
+            </button>
         </section>
 
-        <!-- TODO: welcome section -->
+        <!-- welcome section -->
         <section class="welcome-header-section">
-            <h2 id="welcome-header">Hello! Welcome to my car booking systems. Please book a car.</h2>
-            <!-- <div id="red-car-emoji"><img src="assets/calendar.png"></div> -->
+            <h2 id="welcome-header">Hello! Welcome to my car booking systems. Please book a car. &#x1F697</h2>
         </section>
 
-        <!-- TODO: booking section -->
+        <!-- booking section -->
         <section class="booking-section">
             <h2 id="booking-header">Book Parking</h2>
             <section class="availability-options">
-                <input type="text" placeholder="From">
-                <input type="text" placeholder="To">
-                <button>See parking options ></button>
+                <input type="text" placeholder="From" class="availability-input" id="from-input">
+                <input type="text" placeholder="To" class="availability-input" id="to-input">
+                <button class="avilability-button">See parking options <span class="greater-than-sign">&#62;</span></button>
             </section>
-            <h3>99 Days for $99* Book now to save ></h3>
+            <h3 id="price-advertisement">99 Days for $99* Book now to save <span class="greater-than-sign" id="purple-greater-than">&#x003E</span></h3>
         </section>
         
-        <!-- TODO: advertisement section -->
+        <!-- advertisement section -->
         <section class="advertisement-section">
-
+            <section class="shop-online-section">
+                <h1 id="advertisement-header">Shop for more</h1>
+                <p id="advertisement-body">SHOP ONLINE & SAVE AN ADDITIONAL 10%*</p>
+            </section>
+            <div class="bottom-section-box">
+                <div class="greater-than-sign" id="greater-than-bottom">></div>
+            </div>
         </section>
     </section>
 </body>

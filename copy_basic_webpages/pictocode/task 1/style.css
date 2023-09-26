@@ -15,14 +15,14 @@ body {
 .left-section {
     width: 25%;
     height: 883px;
-    background-color: #123f6d;
+    background-color: #013365;
 }
 
 .middle-section {
     color: black;
     display: flex;
     flex-direction: column; 
-    justify-content: flex-start; /* start from top of page*/
+    justify-content: flex-start; 
     background-color: #dddddd;
     height: 883px;
     width: 50%;
@@ -35,8 +35,8 @@ body {
 
 #accouncement-header {
     color: #900000;
-    /* change font weight */
-    font-size: 23px;
+    font-weight: bolder;
+    font-size: 30px;
     font-weight: 800;
     background-color: #ece17d;
     margin: 0px;
@@ -44,40 +44,42 @@ body {
 }
 
 #accouncement-intro {
-    padding: 10px;
-    font-size: 17px;
+    padding: 20px;
+    margin: 5px;
+    font-size: 25px;
 }
 
 #sales-line {
-    font-size: 20px;
-    font-weight: 845;
+    font-size: 35px;
+    font-weight: bolder;
     color: #013365;
     margin: 0 20px 0 20px;
 }
 
 p {
-    font-size: 17px;
+    font-size: 29px;
     padding: 0 20px 0 20px;
 }
 
 .right-section {
     width: 25%;
     height: 883px;
-    background-color: #123f6d;
+    background-color: #013365;
 }
 
 ul {
-    padding-inline-start: 20px;
+    padding-inline-start: 30px;
+    font-size: 25px;
+    font-weight: 700;
 }
 
 li {
     width: 85%;
     list-style: none;
-    background-image: url(arrow.png); /* find arrow photo here */
+    background-image: url(assets/arrow.png);
     background-repeat: no-repeat; 
     background-position: left;
-    background-size: 20px;
-    padding: 10px 0px 10px 25px;
+    background-size: 30px;
+    padding: 23px 0px 23px 40px;
     border-bottom: 1px dotted #dddddd;
 } 
-

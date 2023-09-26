@@ -3,58 +3,74 @@
 }
 
 body {
-    background-image: url(assets/background.png);
-    /* background-repeat: no-repeat;
-    background-size: cover;  */
     margin: 0;
 }
 
-/* .flex-container {
+.flex-container {
+    height: 1120px;
+    width: 786px; 
     display: flex;
     flex-direction: column;
-    justify-content: center;
-} */
+    background-image: url(assets/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
 
 .search-bar-section {
     display: flex;
     flex-direction: row;
+    background-color: white;
     justify-content: center;
+    align-items: center;
+    height: 140px;
+    width: 786px;
 }
 
 #searchbar {
-    height: 80px;
-    width: 586px;
-    font-size: 20px;
+    height: 90px;
+    width: 576px;
+    font-size: 25px;
+    color: #8a8f9b;
     background-color:#F4F4F4;
-    border-top: 10px solid white;
-    border-bottom: 10px solid white;
-    border-left: none;
-    border-right: none;
-    margin: none;
-    padding: 0;
-    /* border: 10px solid black; */
+    border: none;
 }
 
-#blue-car-emoji {
-    height: 80px;
+#emoji-container {
+    font-size: 2em;
+    height: 90px;
     width: 100px;
     background-color: #F4F4F4;
-    border-top: 10px solid white;
-    border-bottom: 10px solid white;
     border-left: 20px solid white;
     border-right: none;
     color: white;
     margin: none;
+    position: relative;
+}
+
+#car-emoji {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #search-button {
-    height: 100px;
+    height: 110px;
     width: 100px;
     background-color: #F4F4F4;
     border-top: 10px solid white;
     border-bottom: 10px solid white;
     border-right: 20px solid white;
     border-left: none; 
+    position: relative;
+}
+
+#magnifying-glass {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    transform: translate(-50%, -50%);
 }
 
 .welcome-header-section {
@@ -62,22 +78,125 @@ body {
 }
 
 #welcome-header {
+    font-size: 45px;
     color: white;
-    font-size: 50px;
-    margin: 40px 40px 40px 40px;
+    width: 700px;
+    margin: 40px 40px 70px 40px;
 }
 
-/* #red-car-emoji {
-    display: inline;
-} */
-
 .booking-section {
-    margin: 0 10px 0 10px;
-    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 100px 10px;
+    height: 400px;
     width: 766px;
     background-color: white;
+    position: relative;
 }
 
 #booking-header {
-    margin-left: 40px;
+    font-size: 40px;
+    margin: 20px 0px 20px 40px
+}
+
+#availability-options {
+    width: 766px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.availability-input {
+    font-size: 25px;
+    border: none;
+    width: 340px;
+    height: 80px;
+    padding: 0 0 0 20px;
+    background-color:  #F4F4F4;
+    background-image: url(assets/calendar.png);
+    background-repeat: no-repeat;
+    background-position: 95%;
+    background-size: 30px;
+}
+
+#from-input {
+    margin: 10px 5px 10px 10px;
+}
+
+#to-input {
+    margin: 10px 0px 10px 5px;
+}
+
+.avilability-button {
+    margin: 0 0 0 10px;
+    width: 360px;
+    height: 80px;
+    padding: 0 0 10px 0;
+    background-color: #CB4B0D;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+#price-advertisement {
+    font-size: 30px;
+    left: 50%;
+    position: relative;
+    left: 120px;
+}
+
+.advertisement-section {
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.greater-than-sign {
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+    padding: 5px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+#greater-than-bottom {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#purple-greater-than {
+    color: #93318E;
+}
+
+.shop-online-section {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 550px;
+    height: 100px;
+}
+
+.bottom-section-box {
+    width: 100px;
+    height: 100px;
+    background-color: #93318E;
+    text-align: bottom;
+    position: relative;
+}
+
+#advertisement-header {
+    font-size: 50px;
+    margin: 0 20px 0 0;
+}
+
+#advertisement-body {
+    font-size: 19px;
+    margin: 10px 20px 0 0;
+    font-weight: 700;
 }
