@@ -1,0 +1,15 @@
+On this page https://rottnestexpress.com.au/rottnest-island/ what is the font size of the "ROTTNEST ISLAND" title?
+size: 1.67em 
+weight: 700 
+
+On the same page what CSS exists that causes images to animate themselves onto the page?
+filter .3s,transform .6s,-webkit-filter .3s
+
+On the same page is the text "Journey Beyond" at the bottom an image or is it text? Where does the image link to?
+it is an img that links to https://rottnestexpress.com.au/wp-content/themes/journey-beyond/built/images/jb_logo.png
+
+Can we change all of the images on this page to have an opacity of 0.8?
+inspect element, go into styles and in the img tag write opacity:0.8
+
+On this page demonstrate how we can change all backgrounds, borders, and text that is red, and change it to the colour blue?
+we can use queryselectorAll("h1[style = 'color:red;']")[0].style.color = 'blue'
