@@ -1,0 +1,95 @@
+#flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#top-section {
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    color: #484848;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: Circular;
+    margin: 15px;
+}
+
+#description {
+    color: #484848;
+    margin: 15px;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+}
+
+#login {
+    color: white;
+    background-color: #008489;
+    border-radius: 10%;
+    width: 80px;
+    height: 50px;
+    margin: 10px 10px 10px 15px;
+    border: 2px solid  #008489; 
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#sign-up {
+    color: #008489;
+    background-color: white;
+    border-radius: 10%;
+    border: 2px solid #008489;
+    width: 80px;
+    height: 50px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#line {
+    color: rgb(153, 153, 153);
+    width: 100%;
+    background-color: rgb(153, 153, 153);
+    margin: 30px 0 20px 15px;
+}
+
+#title2 {
+    color: #484848;
+    font-size: 1.5rem;
+    margin: 15px 0 20px 15px;
+}
+
+#bottom-section {
+    display: flex;
+    flex-direction: row;
+}
+
+#lst1 {
+    list-style-type: none;
+    padding-inline-start: 15px;
+}
+
+#lst2 {
+    list-style-type: none;
+    padding-inline-start: 100px;
+}
+
+.subtitle {
+    color: #484848;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 20px 0 20px 0;
+}
+
+.qs {
+    color: #484848;
+    font-size: 1rem;
+    margin: 20px 0 20px 0;
+    /* font-family: 'Circular'; */
+}
